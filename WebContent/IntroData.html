@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-2.0.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h2>Inserimento dati per servlet</h2>
+	<br>
+	<form action="S3" method="POST">
+		Name: <input type="text" name="name"> <br> Surname:<input
+			type="text" name="surname"> <br> Password: <input
+			type="password" name="password"> <br> <input
+			type="submit" value="Send">
+	</form>
+	<form>
+		Male:<input type="radio" name="sex" value="Male"> <br>
+		Female:<input type="radio" name="sex" value="Female"> <br>
+	</form>
+
+	<form method="post">
+		<table align="left">
+			<tr>
+				<td><input type="radio" name="color" value="red"><font
+					color="red">Red</font></td>
+			</tr>
+			<tr>
+				<td><input type="radio" name="color" value="Blue"><font
+					color="blue">Blue</font></td>
+			</tr>
+			<tr>
+				<td><input type="radio" name="color" value="Green"><font
+					color="Green">Green</font></td>
+			</tr>
+			<tr>
+				<td><input type="radio" name="color" value="Black"><font
+					color="Black">Black</font></td>
+			</tr>
+			<tr>
+				<td></td>
+				<fieldset data-role="controlgroup" id="checkboxes-1">
+					<legend>colori</legend>
+					<input name="checkbox-1a" id="checkbox-1a" type="checkbox"/>
+					<label for="checkbox-1a">blue</label>
+					<input name="checkbox-1b" id="checkbox-1b" type="checkbox"/>
+					<label for="checkbox-1b">red</label>
+					<input name="checkbox-1c" id="checkbox-1c" type="checkbox"/>
+					<label for="checkbox-1c">green</label>
+					<input name="checkbox-1d" id="checkbox-1d" type="checkbox"/>
+					<label for="checkbox-1d">black</label>
+				</fieldset>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
